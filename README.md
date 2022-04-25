@@ -1,6 +1,6 @@
 # Ouvidorias-GDF
  
-O objetivo desse projeto é criar um pipeline de dados das ouvidorias do GDF e criar um dashboard.
+O objetivo desse projeto é criar um pipeline de dados das ouvidorias do GDF que resultrá em um dashboard.
 
 Serão consideradas as 3 etapas de ETL:
 
