@@ -18,6 +18,6 @@ O projeto ainda está sendo feito, e essas são minhas próximas ações:
 
 Ações finalizadas:
 
-✅ Criar automação para baixar a base de ouvidorias desse ano
-✅ Criar banco de dados local com SQL Server
+✅ Criar automação para baixar a base de ouvidorias desse ano <br>
+✅ Criar banco de dados local com SQL Server <br>
 ✅ Criar conexão entre o python e o SQL Server
