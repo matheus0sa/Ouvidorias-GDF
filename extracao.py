@@ -7,18 +7,18 @@ from time import sleep
 import os
 
 def baixar_csv():
-
-    driver = webdriver.Chrome(executable_path=".\chromedriver.exe")
-    os.chdir(r"C:\Users\mathe\Downloads")
+    chorme_options = webdriver.ChromeOptions()
+    chorme_options.add_argument('--headless')
+    driver = webdriver.Chrome(executable_path=".\chromedriver.exe", chrome_options=chorme_options)
+    parametros = {'behavior': 'allow', 'downloadPath': r"C:\Users\mathe\PycharmProjects\Ouvidorias-GDF"}
+    driver.execute_cdp_cmd('Page.setDownloadBehavior', parametros)
     arquivos0 = os.listdir()
     driver.get("http://www.painel.ouv.df.gov.br/dashboard")
-
     exportar = '/html/body/app-root/app-nav-wrapper/div/div[2]/div[2]/app-visao-geral/app-content-page/div[1]/div[1]/app-container-filtro/div[1]/div[2]/div[2]'
     WebDriverWait(driver, timeout=180).until(EC.presence_of_element_located((By.XPATH, exportar)))
     exportar = driver.find_element(by=By.XPATH, value=exportar)
     sleep(1)
     exportar.click()
-
     baixar = '/html/body/div[2]/div/div[3]/button[1]'
     WebDriverWait(driver, timeout=180).until(EC.presence_of_element_located((By.XPATH, baixar)))
     sleep(1)

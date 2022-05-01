@@ -10,8 +10,8 @@ Serão consideradas as 3 etapas de ETL:
 
 - O carregamento é feito em um banco local no SQL Server.
 
-O projeto ainda está sendo feito, e essas são minhas próximas ações:
+O projeto ainda está sendo feito e essas são minhas próximas ações:
 
 ⬜ Descobrir como usar o selenium com o navegador "invisível" e baixar arquivos (por algum motivo, quando ativo "headless" não consigo baixar a base de dados)<br>
-⬜ Alterar o código para baixar a base de forma incremental (A atualmente está baixando a base do ano inteiro sempre que rodo o código)<br>
+⬜ Alterar o código para baixar a base de forma incremental (atualmente está baixando a base do ano inteiro sempre que rodo o código)<br>
 ⬜ Criar um conexão ODBC com o Power BI e criar um dashboard
