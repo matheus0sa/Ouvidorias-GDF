@@ -12,7 +12,7 @@ Serão consideradas as 3 etapas de ETL:
 
 O projeto ainda está sendo feito, e essas são minhas próximas ações:
 
-⬜ Alterar o código para baixar a base de forma incremental (A atualmente está baixando a base do ano inteiro sempre que rodo o código)<br>
+⬜ Alterar o código para baixar a base de forma incremental (A atualmente está baixando a base do ano inteiro sempre que rodo o código<br>
 ⬜ Criar um dashboard com o Power BI
 
 Ações finalizadas:<br>
@@ -20,3 +20,8 @@ Ações finalizadas:<br>
 ✅ Criar automação para baixar a base de ouvidorias desse ano <br>
 ✅ Criar banco de dados local com SQL Server <br>
 ✅ Criar conexão entre o python e o SQL Server
+
+
+Comecei o dashboard, o mapa no dashboard não ficou legal, vou trabalhar nele mas ja é possível visualiza-lo no link:
+
+https://app.powerbi.com/view?r=eyJrIjoiYjNhZjc2NTEtZmY1Zi00NTczLTg3NmQtOTFiNDYyZjI1YzczIiwidCI6ImVjMzU5YmExLTYzMGItNGQyYi1iODMzLWM4ZTZkNDhmODA1OSJ9
