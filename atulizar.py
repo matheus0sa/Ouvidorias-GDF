@@ -5,6 +5,10 @@ hoje = str(datetime.today())[:10]
 
 file = open('log_atualizacao.txt','r')
 data = file.read()
+teste = data != hoje
+print(data)
+
+
 if data != hoje:
     file.close()
     file = open('log_atualizacao.txt','w')
@@ -12,4 +16,5 @@ if data != hoje:
     tc()
     file.write(hoje)
     file.close()
+
 
